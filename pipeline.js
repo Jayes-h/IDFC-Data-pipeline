@@ -19,11 +19,11 @@ const {insertSharePrice} = require('./etl/load data/insertSharePrice');
 async function runPipeline() {
     console.log("run pipeline01");
     const files = [
-        'financials.csv',
-        'liabilities.csv',
-        'loan_distribution.csv',
-        'npa_metrics.csv',
-        'profitability.csv',
+        // 'financials.csv',
+        // 'liabilities.csv',
+        // 'loan_distribution.csv',
+        // 'npa_metrics.csv',
+        // 'profitability.csv',
         'shareprice.csv',
     ];
 console.log("run pipeline");
@@ -51,7 +51,7 @@ console.log("run pipeline");
                 console.log(`Inserted ${file} into database.`);
             }
 
-            if (file === 'libilities.csv') {
+            if (file === 'liabilities.csv') {
                 await insertLibilities(cleaned);
                 console.log(`Inserted ${file} into database.`);
             }
@@ -61,7 +61,7 @@ console.log("run pipeline");
                 console.log(`Inserted ${file} into database.`);
             }
 
-            if (file === 'npa_metrices.csv') {
+            if (file === 'npa_metrics.csv') {
                 await insertNpaMetrices(cleaned);
                 console.log(`Inserted ${file} into database.`);
             }

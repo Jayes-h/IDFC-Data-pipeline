@@ -7,11 +7,11 @@
     "Corporate Deposits (Cr)": 23688,
     "Government Banking (Cr)": 18722,
     "Fresh Borrowings (Cr)": 118419,
-    "Total Liabilities (Cr)": "340000+ (approx)",
-    "Retail %": "65%",
-    "Legacy %": "9%",
-    "CoD %": "3%",
-    "Corporate %": "8%",
-    "Govt %": "5%"
+    "Total Liabilities (Cr)": 340000,
+    "Retail %": 65,
+    "Legacy %": 9,
+    "CoD %": 3,
+    "Corporate %": 8,
+    "Govt %": 5
   }
 ]

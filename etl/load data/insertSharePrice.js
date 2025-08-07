@@ -1,7 +1,7 @@
 const pool = require('../../db/db-config');
 
 async function insertSharePrice(data) {
-    console.log("insert share price into postgres");
+    console.log("insert share price into postgres", data);
 
     for (const entry of data) {
         await pool.query(
@@ -12,16 +12,15 @@ async function insertSharePrice(data) {
                 bse_volume,
                 nse_high,
                 nse_low,
-                nse_volume,
-                
-            ) VALUES ($1, $2, $3, $4)`,
+                nse_volume
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7)`,
             [
-                parseInt(entry['Month ']),
-                parseFloat(entry['BSE_High']),
-                parseFloat(entry['BSE_Low']),
+                entry['Month'],
+                parseFloat(entry['BSE_High ']),
+                parseFloat(entry['BSE_Low ']),
                 parseFloat(entry['BSE_Volume']),
-                parseFloat(entry['NSE_High']),
-                parseFloat(entry['NSE_Low']),
+                parseFloat(entry['NSE_High ']),
+                parseFloat(entry['NSE_Low ']),
                 parseFloat(entry['NSE_Volume'])
             ]
         );

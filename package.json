@@ -1,0 +1,18 @@
+{
+  "name": "data-engineering",
+  "version": "1.0.0",
+  "description": "\"# IDFC-Data-pipeline\"",
+  "main": "pipeline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node pipeline.js"
+  },
+  "keywords": [],
+  "author": "Jayesh Patil IET DAVV ",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7"
+  }
+}

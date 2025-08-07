@@ -43,26 +43,25 @@ CREATE TABLE financials (
 CREATE TABLE liabilities (
     Year INT,
     Retail_Deposits_Cr FLOAT,
-    Legacy_Borrowings_Cr VARCHAR(20),
-    Certificate_of_Deposits_Cr VARCHAR(20),
-    Corporate_Deposits_Cr VARCHAR(20),
-    Government_Banking_Cr VARCHAR(20),
+    Legacy_Borrowings_Cr FLOAT,
+    Certificate_of_Deposits_Cr FLOAT,
+    Corporate_Deposits_Cr FLOAT,
+    Government_Banking_Cr FLOAT,
     Fresh_Borrowings_Cr FLOAT,
-    Total_Liabilities_Cr VARCHAR(50),
-    Retail_Percent VARCHAR(10),
-    Legacy_Percent VARCHAR(10),
-    CoD_Percent VARCHAR(10),
-    Corporate_Percent VARCHAR(10),
-    Govt_Percent VARCHAR(10)
+    Total_Liabilities_Cr FLOAT,
+    Retail_Percent FLOAT,
+    Legacy_Percent FLOAT,
+    CoD_Percent FLOAT,
+    Corporate_Percent FLOAT,
+    Govt_Percent FLOAT
 );
 
 
 
 CREATE TABLE loan_distribution (
     year INT,
-    segment VARCHAR(50),
-    loan_share_percent VARCHAR(10),
-    notes TEXT
+    segment FLOAT,
+    loan_share_percent FLOAT
 );
 
 
@@ -75,11 +74,11 @@ CREATE TABLE npa_metrics (
 
 CREATE TABLE profitability (
     year INT,
-    total_income_cr VARCHAR(20),
-    net_profit_cr VARCHAR(20),
-    operating_profit_ppop_cr VARCHAR(20),
-    net_interest_income_cr VARCHAR(20),
-    fee_other_income_cr VARCHAR(20),
+    total_income_cr FLOAT,
+    net_profit_cr FLOAT,
+    operating_profit_ppop_cr FLOAT,
+    net_interest_income_cr FLOAT,
+    fee_other_income_cr FLOAT,
     net_interest_margin_percent FLOAT,
     roa_percent FLOAT,
     roe_percent FLOAT
@@ -88,10 +87,10 @@ CREATE TABLE profitability (
 
 CREATE TABLE shareprice (
     month VARCHAR(20),
-    bse_high VARCHAR(10),
-    bse_low VARCHAR(10),
-    bse_volume VARCHAR(20),
-    nse_high VARCHAR(10),
-    nse_low VARCHAR(10),
-    nse_volume VARCHAR(20)
+    bse_high FLOAT,
+    bse_low FLOAT,
+    bse_volume FLOAT,
+    nse_high FLOAT,
+    nse_low FLOAT,
+    nse_volume FLOAT
 );

@@ -20,7 +20,7 @@ async function insertFinancials(data) {
             ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`,
             [
                 parseInt(entry['Year']),
-                parseFloat(entry['Loan_Advances (Cr)']),
+                parseFloat(entry['Loans_Advances (Cr)']),
                 parseFloat(entry['Deposits (Cr)']),
                 parseFloat(entry['CASA_Ratio (%)']),
                 parseFloat(entry['Gross_NPA (%)']),
