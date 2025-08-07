@@ -1,0 +1,32 @@
+[
+  {
+    "Year": 2024,
+    "Net Worth (Cr)": 32161,
+    "CET1 Capital (Cr)": 30940,
+    "Tier 1 Capital (Cr)": 30940,
+    "Tier 2 Capital (Cr)": 6366,
+    "Total Capital (Cr)": 37306,
+    "RWA (Cr)": 231577,
+    "CRAR (%)": 16.11,
+    "CET1 Ratio (%)": 13.36,
+    "Tier 2 Ratio (%)": 2.75,
+    "Leverage Ratio (%)": 9.46,
+    "Book Value/Share (?)": 45.49,
+    "EPS (?)": 4.18
+  },
+  {
+    "Year": 2023,
+    "Net Worth (Cr)": 25721,
+    "CET1 Capital (Cr)": 24816,
+    "Tier 1 Capital (Cr)": 24816,
+    "Tier 2 Capital (Cr)": 4585,
+    "Total Capital (Cr)": 29401,
+    "RWA (Cr)": 174762,
+    "CRAR (%)": 16.82,
+    "CET1 Ratio (%)": 14.2,
+    "Tier 2 Ratio (%)": 2.62,
+    "Leverage Ratio (%)": 9.25,
+    "Book Value/Share (?)": 38,
+    "EPS (?)": 0
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "Segment": "Home Loan",
+    "Gross_NPA_Percent": 1.72,
+    "Net_NPA_Percent": 0.52
+  },
+  {
+    "Segment": "Credit Card",
+    "Gross_NPA_Percent": 1.76,
+    "Net_NPA_Percent": 0.39
+  },
+  {
+    "Segment": "Rural Finance",
+    "Gross_NPA_Percent": 1.01,
+    "Net_NPA_Percent": 0.2
+  },
+  {
+    "Segment": "SME Finance",
+    "Gross_NPA_Percent": 1.2,
+    "Net_NPA_Percent": 0.38
+  },
+  {
+    "Segment": "Vehicles",
+    "Gross_NPA_Percent": 1.52,
+    "Net_NPA_Percent": 0.59
+  },
+  {
+    "Segment": "Infra Finance",
+    "Gross_NPA_Percent": 26.45,
+    "Net_NPA_Percent": 15.55
+  },
+  {
+    "Segment": "Overall Bank",
+    "Gross_NPA_Percent": 1.88,
+    "Net_NPA_Percent": 0.6
+  }
+]

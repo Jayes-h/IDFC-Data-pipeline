@@ -1,0 +1,110 @@
+[
+  {
+    "Month": "23-Apr",
+    "BSE_High ": 62,
+    "BSE_Low ": 53.35,
+    "BSE_Volume": 35826301,
+    "NSE_High ": 62,
+    "NSE_Low ": 53.35,
+    "NSE_Volume": 433042050
+  },
+  {
+    "Month": "23-May",
+    "BSE_High ": 72,
+    "BSE_Low ": 63,
+    "BSE_Volume": 78323138,
+    "NSE_High ": 72,
+    "NSE_Low ": 63,
+    "NSE_Volume": 775189360
+  },
+  {
+    "Month": "23-Jun",
+    "BSE_High ": 84.52,
+    "BSE_Low ": 70.9,
+    "BSE_Volume": 76253784,
+    "NSE_High ": 84.5,
+    "NSE_Low ": 70.85,
+    "NSE_Volume": 907802000
+  },
+  {
+    "Month": "23-Jul",
+    "BSE_High ": 88.25,
+    "BSE_Low ": 77.1,
+    "BSE_Volume": 62115986,
+    "NSE_High ": 88.3,
+    "NSE_Low ": 77.05,
+    "NSE_Volume": 942453269
+  },
+  {
+    "Month": "23-Aug",
+    "BSE_High ": 95.54,
+    "BSE_Low ": 85.51,
+    "BSE_Volume": 60682861,
+    "NSE_High ": 95.8,
+    "NSE_Low ": 85.55,
+    "NSE_Volume": 1109764624
+  },
+  {
+    "Month": "23-Sep",
+    "BSE_High ": 100.74,
+    "BSE_Low ": 89,
+    "BSE_Volume": 337439010,
+    "NSE_High ": 100.7,
+    "NSE_Low ": 89.1,
+    "NSE_Volume": 828354368
+  },
+  {
+    "Month": "23-Oct",
+    "BSE_High ": 95.99,
+    "BSE_Low ": 81.5,
+    "BSE_Volume": 65663550,
+    "NSE_High ": 95.65,
+    "NSE_Low ": 81.45,
+    "NSE_Volume": 624782124
+  },
+  {
+    "Month": "23-Nov",
+    "BSE_High ": 88.86,
+    "BSE_Low ": 80.8,
+    "BSE_Volume": 43441748,
+    "NSE_High ": 88.9,
+    "NSE_Low ": 80.8,
+    "NSE_Volume": 500173454
+  },
+  {
+    "Month": "23-Dec",
+    "BSE_High ": 92.33,
+    "BSE_Low ": 85.4,
+    "BSE_Volume": 212030918,
+    "NSE_High ": 92.45,
+    "NSE_Low ": 85.4,
+    "NSE_Volume": 788576702
+  },
+  {
+    "Month": "24-Jan",
+    "BSE_High ": 89.6,
+    "BSE_Low ": 78.88,
+    "BSE_Volume": 90530184,
+    "NSE_High ": 89.65,
+    "NSE_Low ": 78.9,
+    "NSE_Volume": 989828327
+  },
+  {
+    "Month": "24-Feb",
+    "BSE_High ": 84.6,
+    "BSE_Low ": 77.83,
+    "BSE_Volume": 77903157,
+    "NSE_High ": 84.65,
+    "NSE_Low ": 77.8,
+    "NSE_Volume": 670166783
+  },
+  {
+    "Month": "24-Mar",
+    "BSE_High ": 82.89,
+    "BSE_Low ": 75.1,
+    "BSE_Volume": 234464293,
+    "NSE_High ": 82.85,
+    "NSE_Low ": 75.05,
+    "NSE_Volume": 694701447
+  }
+]

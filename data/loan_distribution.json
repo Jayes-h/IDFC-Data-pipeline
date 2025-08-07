@@ -1,0 +1,50 @@
+[
+  {
+    "Year": 2024,
+    "Segment": "Retail Loans",
+    "Loan Share (%)": 78,
+    "Notes": "Includes Home Loan Credit Card Personal SME"
+  },
+  {
+    "Year": 2024,
+    "Segment": "Corporate Loans",
+    "Loan Share (%)": 22,
+    "Notes": "Infrastructure + Large Wholesale Lending"
+  },
+  {
+    "Year": 2024,
+    "Segment": "Home Loan",
+    "Loan Share (%)": 35,
+    "Notes": "Major driver of retail loan book"
+  },
+  {
+    "Year": 2024,
+    "Segment": "Credit Card",
+    "Loan Share (%)": 10,
+    "Notes": "High-yield retail product"
+  },
+  {
+    "Year": 2024,
+    "Segment": "SME Finance",
+    "Loan Share (%)": 8,
+    "Notes": "Part of retail"
+  },
+  {
+    "Year": 2024,
+    "Segment": "Rural Finance",
+    "Loan Share (%)": 5,
+    "Notes": "Under Retail Loan"
+  },
+  {
+    "Year": 2023,
+    "Segment": "Retail Loans",
+    "Loan Share (%)": 74,
+    "Notes": 0
+  },
+  {
+    "Year": 2023,
+    "Segment": "Corporate Loans",
+    "Loan Share (%)": 26,
+    "Notes": 0
+  }
+]

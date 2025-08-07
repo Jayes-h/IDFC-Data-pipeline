@@ -1,0 +1,79 @@
+[
+  {
+    "Year": 2025,
+    "Loans_Advances (Cr)": 241926,
+    "Deposits (Cr)": 252065,
+    "CASA_Ratio (%)": 40.9,
+    "Gross_NPA (%)": 1.87,
+    "Net_NPA (%)": 0.53,
+    "PAT (Cr)": 1525,
+    "ROA (%)": 0.6,
+    "ROE (%)": 4
+  },
+  {
+    "Year": 2024,
+    "Loans_Advances (Cr)": 200965,
+    "Deposits (Cr)": 200576,
+    "CASA_Ratio (%)": 47.25,
+    "Gross_NPA (%)": 1.88,
+    "Net_NPA (%)": 0.6,
+    "PAT (Cr)": 2957,
+    "ROA (%)": 1.1,
+    "ROE (%)": 10.3
+  },
+  {
+    "Year": 2023,
+    "Loans_Advances (Cr)": 160599,
+    "Deposits (Cr)": 136812,
+    "CASA_Ratio (%)": 49.8,
+    "Gross_NPA (%)": 2.51,
+    "Net_NPA (%)": 0.86,
+    "PAT (Cr)": 2437,
+    "ROA (%)": 1.13,
+    "ROE (%)": 10.95
+  },
+  {
+    "Year": 2022,
+    "Loans_Advances (Cr)": 117858,
+    "Deposits (Cr)": 105634,
+    "CASA_Ratio (%)": 49.88,
+    "Gross_NPA (%)": 3.7,
+    "Net_NPA (%)": 1.53,
+    "PAT (Cr)": 145,
+    "ROA (%)": 0.1,
+    "ROE (%)": 6.67
+  },
+  {
+    "Year": 2021,
+    "Loans_Advances (Cr)": 117127,
+    "Deposits (Cr)": 45896,
+    "CASA_Ratio (%)": 51.75,
+    "Gross_NPA (%)": 4.15,
+    "Net_NPA (%)": 1.86,
+    "PAT (Cr)": 452,
+    "ROA (%)": 0.27,
+    "ROE (%)": 2.92
+  },
+  {
+    "Year": 0,
+    "Loans_Advances (Cr)": 0,
+    "Deposits (Cr)": 0,
+    "CASA_Ratio (%)": 0,
+    "Gross_NPA (%)": 0,
+    "Net_NPA (%)": 0,
+    "PAT (Cr)": 0,
+    "ROA (%)": 0,
+    "ROE (%)": 0
+  },
+  {
+    "Year": 0,
+    "Loans_Advances (Cr)": 0,
+    "Deposits (Cr)": 0,
+    "CASA_Ratio (%)": 0,
+    "Gross_NPA (%)": 0,
+    "Net_NPA (%)": 0,
+    "PAT (Cr)": 0,
+    "ROA (%)": 0,
+    "ROE (%)": 0
+  }
+]
