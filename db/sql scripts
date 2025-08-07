@@ -1,0 +1,97 @@
+CREATE TABLE capital (
+    Year INT,
+    Net_Worth_Cr VARCHAR(20),
+    CET1_Capital_Cr VARCHAR(20),
+    Tier1_Capital_Cr VARCHAR(20),
+    Tier2_Capital_Cr VARCHAR(20),
+    Total_Capital_Cr VARCHAR(20),
+    RWA_Cr VARCHAR(20),
+    CRAR_Percent FLOAT,
+    CET1_Ratio_Percent FLOAT,
+    Tier2_Ratio_Percent FLOAT,
+    Leverage_Ratio_Percent FLOAT,
+    Book_Value_Per_Share VARCHAR(20),
+    EPS VARCHAR(20)
+);
+
+
+
+CREATE TABLE deposit_metrics (
+    Year INT,
+    Customer_Deposits_Cr BIGINT,
+    CASA_Deposits_Cr BIGINT,
+    CASA_Ratio_Percent FLOAT,
+    Deposit_Growth_YoY_Percent FLOAT,
+    Retail_Deposit_Share_Percent FLOAT
+);
+
+
+CREATE TABLE financials (
+    Year INT,
+    Loans_Advances_Cr FLOAT,
+    Deposits_Cr FLOAT,
+    CASA_Ratio_Percent FLOAT,
+    Gross_NPA_Percent FLOAT,
+    Net_NPA_Percent FLOAT,
+    PAT_Cr FLOAT,
+    ROA_Percent FLOAT,
+    ROE_Percent FLOAT
+);
+
+
+
+CREATE TABLE liabilities (
+    Year INT,
+    Retail_Deposits_Cr FLOAT,
+    Legacy_Borrowings_Cr VARCHAR(20),
+    Certificate_of_Deposits_Cr VARCHAR(20),
+    Corporate_Deposits_Cr VARCHAR(20),
+    Government_Banking_Cr VARCHAR(20),
+    Fresh_Borrowings_Cr FLOAT,
+    Total_Liabilities_Cr VARCHAR(50),
+    Retail_Percent VARCHAR(10),
+    Legacy_Percent VARCHAR(10),
+    CoD_Percent VARCHAR(10),
+    Corporate_Percent VARCHAR(10),
+    Govt_Percent VARCHAR(10)
+);
+
+
+
+CREATE TABLE loan_distribution (
+    year INT,
+    segment VARCHAR(50),
+    loan_share_percent VARCHAR(10),
+    notes TEXT
+);
+
+
+CREATE TABLE npa_metrics (
+    segment VARCHAR(50),
+    gross_npa_percent FLOAT,
+    net_npa_percent FLOAT
+);
+
+
+CREATE TABLE profitability (
+    year INT,
+    total_income_cr VARCHAR(20),
+    net_profit_cr VARCHAR(20),
+    operating_profit_ppop_cr VARCHAR(20),
+    net_interest_income_cr VARCHAR(20),
+    fee_other_income_cr VARCHAR(20),
+    net_interest_margin_percent FLOAT,
+    roa_percent FLOAT,
+    roe_percent FLOAT
+);
+
+
+CREATE TABLE shareprice (
+    month VARCHAR(20),
+    bse_high VARCHAR(10),
+    bse_low VARCHAR(10),
+    bse_volume VARCHAR(20),
+    nse_high VARCHAR(10),
+    nse_low VARCHAR(10),
+    nse_volume VARCHAR(20)
+);
